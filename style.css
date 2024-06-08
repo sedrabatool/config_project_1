@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+body{
+    overflow-x: hidden; 
+    /* remove scrolling */
+}
+.page{
+    padding: 25px 100px 50px 100px;
+
+}
+.navbar{
+    background-color: white;
+    display: flex; /* divs inside navbar allighn horizentally*/
+    align-items: center;
+    justify-content: space-between;
+    /* create equal space between flex items */
+
+
+}
+
+li{
+    list-style: none;
+    display: inline-block; /*set all list elements horizentally*/
+    margin: 20px; /* create space between all list items*/
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 85px;
+}
+.landing_page_heading{
+    display: flex;
+    flex-direction: column; /* flex item allighned vertically rather horizentally*/
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    margin-top: 60px;
+}
+h1,h4,button{
+            margin: 10px; /* Remove default margin */
+        }
+.main_img{
+        height: 400px; 
+        background-image: url('new_main.png');
+        background-position: center; /* Center the image */
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+}
+.head_subhead{
+   line-height: 25px;
+   margin: auto;
+   margin-top: 70px;
+
+}
+.card_main_div{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    margin-top:30px ;
+    margin-bottom: 20px;
+}
+
+.prof_img1{
+    background:url(boy.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius:50px;
+    margin-top: 35px;
+   
+}
+.prof_img2{
+    background:url(girl1.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius:50px;
+    margin-top: 35px;
+   
+}
+.prof_img3{
+    background:url(girl2.jpeg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius:50px;
+    margin-top: 35px;
+   
+}
+.card_div{
+    display: flex;
+    gap: 5px;
+
+}
+.cards{
+    width: 30vw; /* Width of the box */
+    height: 192px; /* Height of the box */
+    border: 2px solid gainsboro; /* Border color */
+    border-radius: 10px;
+    box-shadow: -4px 8px 20px 0px #0000001A;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.name_desc{
+    margin-top: 35px;
+}
+
+.last_cards{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.last_cards img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 100%; /* Ensure images don't exceed container height */
+}
+.last{
+    margin-bottom: 20px;
+}
+.hr{
+    color: #E6E6E6;
+}
+.icons{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+
+
+
+
